@@ -1,5 +1,15 @@
 #include<stdio.h>
 int main(){
-    printf("As coisas que perdemos sempre acabam voltando para nós, mas nem sempre da forma que esperamos");
-    Return(0);
+    int numerador = 68;
+    int divisor = 1
+    int valor;
+//não sei fazer divisão de fração :(
+    float letra = ('robert');
+    char nome [5]= ("robert");
+    printf("%s %s %s %s %s",letra);
+    valor = numerador + divisor;
+    printf("%d", valor);
+    
+
+   
 }
