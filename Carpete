@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    float largura;
+    float comprimento;
+    float valor = 5;
+    float metro;
+    float total;
+    printf("Qual a largura da sua sala");
+    scanf("%f", &largura);
+    printf("Qual o comprimento da sua sala");
+    scanf("%f", &comprimento);
+    metro = largura * comprimento;
+    total = metro / valor;
+    printf("o valor maximo sera:%.1f\n", total);
+
+}
