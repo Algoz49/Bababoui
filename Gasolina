@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    float distancia;
+    float combustivel;
+    float media;
+    printf("quantos KM voce percorreu");
+    scanf("%f", &distancia);
+    printf("quanto litros de gasolina voce tem?");
+    scanf("%f", &combustivel);
+    media = distancia / combustivel;
+    printf("a media de consumo e %.2f\n", media);
+
+}
