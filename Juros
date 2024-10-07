@@ -1,0 +1,19 @@
+
+#include<stdio.h>
+int main(){
+float capital;
+float juros;
+float meses;
+float mensal;
+float valor;
+printf("Qual o juros por mes");
+scanf("%f", &juros);
+printf("voce pagara o juros por quantos meses");
+scanf("%f", &meses);
+printf("Qual o capital");
+scanf("%f", &capital);
+mensal = juros * meses;
+valor = capital * mensal;
+printf("O montante total sera: %.1f", valor);
+
+}
