@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+   int tamanho;
+   int velocidade;
+   int tempo;
+   printf("Qual o tamanho do arquivo em bits?");
+   scanf("%d", &tamanho);
+   printf("Qual a velocidade de conexão em bits por segundo?");
+   scanf("%d", &velocidade);
+    tempo = tamanho / velocidade;
+    printf("o tempo sera %d segundos", tempo);
+
+
+}
