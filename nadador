@@ -1,0 +1,11 @@
+
+#include<stdio.h>
+int main(){
+int idade;
+printf("Qual a idade do nadador??");
+scanf("%d", &idade);
+if (idade <= 10){printf("O nadador sera de categoria infatil");}
+if (idade = 11, 12, 13, 14, 15, 16, 17);{printf("O nadador sera de categoria juvenil");}
+if (idade > 17){printf("O nadador sera senior");}
+
+}
