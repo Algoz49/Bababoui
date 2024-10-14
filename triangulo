@@ -1,0 +1,17 @@
+
+#include<stdio.h>
+int main(){
+int a;
+int b;
+int c;
+printf ("qual o tamanho A do triangulo?");
+scanf("%d", &a);
+printf("Qual o tamanho B do seu triangulo?");
+scanf("%d", &b);
+printf("Tamanho C do seu triangulo"); 
+scanf("%d", &c);
+
+if (a == b && c == b){printf("O triangulo sera equilatero");}
+if (a != b && c != b){printf("O trainglo sera escaleno");}
+if (a == b || b == c || c == a){printf("o triangulo sera isosceles");}
+}
