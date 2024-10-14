@@ -1,0 +1,14 @@
+
+#include<stdio.h>
+int main(){
+int folha;
+float valor;
+float total;
+printf("Quantas folhas voce deseja?");
+scanf("%d", &folha);
+valor = 0.25;
+if (folha > 100){valor = 0.20;}
+total = folha * valor;
+printf("o valor total sera %.1f", total);
+
+}
