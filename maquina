@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+int defeito;
+int peda;
+float valor;
+float medio;
+printf("quantas pecas estao sendo produzidas?");
+scanf("%d", &peda);
+printf("quantas estao saindo defeituosas");
+scanf("%d", &defeito);
+valor = defeito / peda;
+medio = valor * 100;
+if (medio > 10){printf("A maquina precisa de reparo");}
+else {printf("a maquina esta funcionando da forma certa");}
+
+}
