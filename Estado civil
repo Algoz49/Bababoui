@@ -1,0 +1,19 @@
+
+
+#include<stdio.h>
+int main(){
+char a;
+char d = 'd';
+char v = 'v';
+char s = 's';
+char c = 'c';
+
+printf("Qual a letra-chave?\n");
+scanf("%c", &a);
+if (a == s){printf("Esta solteiro\n");}
+if (a == c){printf("Esta casado\n");}
+if (a == v){printf("Esta viuvo\n");}
+if (a == d){printf("Esta divorciado\n");}
+
+
+}
