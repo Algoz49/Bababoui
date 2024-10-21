@@ -1,9 +1,18 @@
+
 #include<stdio.h>
 int main(){
 int a, b , c;
-printf("Quais os numeros?");
-scanf("%d, %d, %d", &a, &b, &c);
-if (a > b && b > c){printf("os numeros em orem crescente: %d %d %d", &a &b &c);}
-if (a < b && b < c){printf("os numeros em ordem crescente: %d %d %d", &c &b %a);}
-if (a > b && b < c){printf("os numeros em ordem crescente: %d %d %d", &a, &c &b);}
+printf("Qual o numero 1?");
+scanf("%d", &a);
+printf("Qual o numero 2?");
+scanf("%d", &b);
+printf("Qual o numero 3?");
+scanf("%d", &c);
+if (a > b && b > c){printf("a ordem crescente sera: %d, %d, %d", c, b, a);}
+if (a > c && c > b){printf("a ordem crescente sera: %d, %d, %d", b, c, a);}
+if (b > c && c > a){printf("a ordem crescente sera: %d, %d, %d", a, c, b);}
+if (b > a && a > c){printf("a ordem crescente sera: %d, %d, %d", c, a, b);}
+if (c > a && a > b){printf("a ordem crescente sera: %d, %d, %d", b, a, c);}
+if (c > b && b > a){printf("a ordem crescente sera: %d, %d, %d", a, b, c);}
+
 }
