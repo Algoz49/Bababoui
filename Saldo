@@ -1,1 +1,12 @@
 
+#include<stdio.h>
+int main(){
+int a;
+
+printf("qual o numero?\n");
+scanf("%d", &a);
+if ("a == 1"){printf("seu saldo eh:...");}
+if ("a == 2"){printf("seu extrato eh:...");}
+if ("a == 3"){printf("sacado...");}
+if("a == 4"){printf("saindo...");}
+}
