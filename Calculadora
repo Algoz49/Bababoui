@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+int a;
+int b;
+int c;
+int r;
+printf("Qual o primeiro numero?");
+scanf("%d", &a);
+printf("Qual o segundo numero?");
+scanf("%d", &b);
+printf("Qual a operacao? \n(1 = soma) \n(subtracao = 4 \n(divisao = 7) \n(multiplicacao = 3)");
+scanf("%d", &c);
+if (c == 4){r = a - b; printf("O resultado sera: %d\n", r); return main();}
+if (c == 1){r = a + b; printf("O resultado sera: %d\n", r); return main();}
+while (b || a == 0) {printf("Invalido\n");
+if (c == 7){r = a / b; printf("O resultado sera: %d\n", r); return main();}}
+if (c == 3){r = a * b; printf("O resultado sera: %d\n", r); return main();}
+else{printf("invalido\n"); return main();}
+
+}
