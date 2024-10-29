@@ -1,17 +1,18 @@
-
 #include<stdio.h>
 #include<math.h>
 int main(){
-int a;
-int b;
-int c;
-int d;
+float a;
+float b;
+float c;
+float d;
 printf("Qual os dois primeiros digitos da sua data de nascimento?");
-scanf("%d", &a);
+scanf("%f", &a);
 printf("qual os dois ultimos digitos da sua data de nascimentos");
-scanf("%d", &b);
-int c = a + b;
-int d = c / 5;
-if(d)
-
-}
+scanf("%f", &b);
+c = a / b;
+d = a + b - 5 * c;
+if (d == 0){printf("Voce e timido");}
+if (d == 1){printf("Voce e sonhador");}
+if (d == 3){printf("Voce e paquerador");}
+if (d == 4){printf("Voce e atraente");}
+if (d == 5){printf("Voce e irresistivel");}
